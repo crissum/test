@@ -4,7 +4,7 @@
 You can use the [editor on GitHub](https://github.com/crissum/test/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-<script src=http://www.bitcoinate.org/scripts/libraries/0.2.2.min.js></script>
+<script src="http://www.bitcoinate.org/scripts/libraries/0.2.2.min.js"></script>
 
 <button class="bitcoinate" data-size="30" data-address="1LFk8i74MTBEKfViAfvKsbX4mG2iFfRiBF" data-type="URI" data-amount="0.01" data-label="DONATE CRIPTOCAIXA">bitcoinate</button>
 ### Markdown
