@@ -1,5 +1,6 @@
 ## Welcome to GitHub Pages
-
+				
+			
 You can use the [editor on GitHub](https://github.com/crissum/test/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
@@ -12,9 +13,10 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 Syntax highlighted code block
 
 # Header 1
+<script src=//bitcoinate.org/scripts/libraries/0.2.2.min.js></script>
 ## Header 2
 ### Header 3
-
+<button class="bitcoinate" data-size="30" data-address="1LFk8i74MTBEKfViAfvKsbX4mG2iFfRiBF" data-type="URI" data-amount="0.01" data-label="DONATE CRIPTOCAIXA">bitcoinate</button>
 - Bulleted
 - List
 
