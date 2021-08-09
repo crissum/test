@@ -1,0 +1,43 @@
+<!-- donate-bitcoin Copyright (GPL) 2016  Nathan Robinson -->
+<DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Donate Bitcoin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <scripttype="text/javascript"
+src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script type="text/javascript"
+src="https://blockchain.info/Resources/js/pay-now-button.js"></script>
+
+  </head>
+
+
+<body>
+
+<script src="http://coinwidget.com/widget/coin.js"></script>
+<script>
+	CoinWidgetCom.go({
+		wallet_address		: '122MeuyZpYz4GSHNrF98e6dnQCXZfHJeGS',
+		currency 		: 'bitcoin',
+		counter			: 'amount',
+		lbl_button 		: 'TIP ME',	
+		lbl_count		: 'payments',
+		lbl_amount 		: 'coins',
+		lbl_address		: 'Please send bitcoin tips to:',
+		qrcode			: false,
+		decimals		: 0,
+		onShow 			: function(){
+			alert('window opened!');
+		},
+		onHide 			: function(){
+			alert('window closed!');
+		}
+	});
+</script>
+
+<br>
+<br>
+<br>
+<a href="https://www.bitcoinqrcodemaker.com"><img src="https://www.bitcoinqrcodemaker.com/api/?style=monero&amp;amount=10&amp;address=888tNkZrPN6JsEgekjMnABU4TBzc2Dt29EPAvkRxbANsAnjyPbb3iQ1YBRk1UXcdRsiKc9dhwMVgN5S9cQUiyoogDavup3H" alt="Monero QR Code Generator" height="300" width="300" border="0" /></a>
+</body>
+<html>
